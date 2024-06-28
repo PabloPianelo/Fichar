@@ -1,0 +1,186 @@
+html,body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-color: #ddd; 
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+
+
+
+img {
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: auto; /* Centra la imagen horizontalmente */
+    }
+
+/* Estilo para el título */
+h1 {
+    text-align: center;
+    color: #19b4c5; 
+    margin-bottom: 20px;
+}
+
+/* Estilo para la tabla */
+
+
+
+/* Estilo para los enlaces */
+a {
+    color: #007bff; /* Azul */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+
+}
+/* Estilo para los botones */
+
+.button-container {
+    
+    margin-left: 20px;
+}
+
+
+.button_css {
+    appearance: none;
+    background-color: white;
+    border: 0.125em solid #8feff8;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    display: inline-block; 
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    min-height: 1.75em;
+    min-width: 0;
+    outline: none;
+    padding: 0.5em 2.3em;
+    text-align: center;
+    margin: auto; /* Centrar el botón */
+    margin-top: 20px; /* Espacio superior */
+    display: block; /* Convertir en bloque para que ocupe todo el ancho */
+}
+
+.button_css:disabled {
+    pointer-events: none;
+}
+
+.button_css:hover {
+    color: #fff;
+    background-color: #8feff8;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button_css:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent   ;
+    color: #777373;
+    padding: 10px 20px;
+}
+
+
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #090909;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: rgb(150, 145, 145);
+}
+
+
+.a_underline {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+.a_underline {
+    position: relative;
+    display: block;
+    padding: 16px 0;
+    margin: 0 12px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #0a0a0a;
+}
+.a_underline::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #ffffff;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}
+.a_underline:active::before {
+    background-color: #fffdfd;
+}
+.a_underline:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+
+
+
+
+.content {
+    text-align: center;
+    padding: 50px;
+}
+
+
+ol, ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    padding: 20px 0 20px;
+    vertical-align: middle;
+}
+a:hover, a:focus, a:active {
+    color: #7c7f80;
+    text-decoration: none;
+}
+
